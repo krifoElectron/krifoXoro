@@ -9,15 +9,22 @@ user.sayHi = function() {
   alert('Привет, ' + this.name + '!');
 };
 
-user.sayHi();
+// user.sayHi();
 
 user2.g = user.sayHi;
 
-user2.g();
+// user2.g();
 
-// user.name = 'Яков';
-// user.sayHello = () => {
-//   alert('Привет, ' + this.name + '!');
-// };
+user.name = 'Яков';
+user.sayHello = () => {
+  alert('Привет, ' + this.a + '!');
+};
 
 // user.sayHello();
+
+let tag = document.querySelector('li:nth-child(3)');
+
+// alert(tag);
+
+tag.classList.add('here');
+console.log(tag);
