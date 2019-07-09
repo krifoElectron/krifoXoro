@@ -18,6 +18,7 @@ nav {
   border: 5px solid #4a79cfee;
   border-radius: 8px;
   padding: 7px;
+  font-size: 20px;
 }
 
 nav a {
@@ -36,6 +37,12 @@ a:hover {
 a:active {
   color: red;
 }
+
+main {
+  margin: 10px;
+  padding-top: 10px;
+}
+
 pre code {
   color: #39a2ac;
 }
