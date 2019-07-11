@@ -1,0 +1,30 @@
+body {
+  padding: 0 30px;
+  font-size: 16px;
+  font-family: "Comic Sans MS", "Tahoma";
+  font-weight: 280;
+  color: rgb(31, 31, 31);
+  line-height: 1.5;
+  background-color: rgba(107, 241, 83, 0.5);
+}
+ 
+form {
+  /* display: flex; */
+  width: 20%;
+  flex-flow: column wrap;
+}
+
+form > input, form > label {
+  margin-top: 7px;
+  padding-top: 7px;
+}
+
+fieldset {
+  border-color: #33a;
+  border-radius: 4px;
+  
+}
+.reset {
+  display: inline;
+  margin-left: 30px;
+}

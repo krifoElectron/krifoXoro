@@ -116,6 +116,21 @@ form {
   flex-flow: column wrap;
 }
 
+form > input, form > label {
+  margin-top: 7px;
+  padding-top: 7px;
+}
+
+fieldset {
+  border-color: #33a;
+  border-radius: 4px;
+  
+}
+.reset {
+  display: inline;
+  margin-left: 30px;
+}
+
 input[type="text"] {
   padding: 4px;
 }
@@ -173,4 +188,10 @@ footer > .copyright {
 .here {
   background-color: #11ee27;
   border-radius: 5px;
+}
+
+.cool {
+  background-color: green;
+  color: white;
+  padding-left: 15px;
 }
