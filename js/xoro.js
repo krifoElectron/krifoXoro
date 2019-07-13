@@ -75,11 +75,11 @@ function newElement(tagName, className, text) {
 
 function action() {
   let i = 0;
-  return function() {
+  return () => {
     i++;
     if (i > 3) {
       let button = document.getElementById('addButton');
-      button.value = 'я же говори, не нажимать!';
+      button.value = 'я же говорил, не нажимать!';
       alert('отстань');
       return;
     }
