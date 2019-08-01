@@ -126,7 +126,8 @@ fieldset {
   border-radius: 4px;
   
 }
-.reset {
+
+.button {
   display: inline;
   margin-left: 30px;
 }
