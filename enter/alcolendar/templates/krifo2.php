@@ -20,7 +20,7 @@
           <li><a href="https://krifoxoro.ru/scripts">Scripts</a></li>
           <li><a href="https://krifoxoro.ru/experements">experements</a></li>
           <li><a href="https://krifoxoro.ru/grid">grid</a></li>
-          <li><a href="https://krifoxoro.ru/enter">Войти</a></li>
+          <li><a href="https://krifoxoro.ru/enter">Акк</a></li>
         </ul>
       </nav>
     </header>
@@ -52,10 +52,14 @@
           <th>Дата</th>
           <th>Кол-во алкоголя</th>
         </tr>
-
+        
+        <tr>
+          <td>02.08.2019</td>
+          <td>пока ничё</td>
+        </tr>
         <tr>
           <td>01.08.2019</td>
-          <td>пока ничё</td>
+          <td class="non_alcohol">Ни капли</td>
         </tr>
         <tr>
           <td>31.07.2019</td>
@@ -79,7 +83,7 @@
         </tr>
         <tr>
           <td>26.07.2019</td>
-          <td class="non_alcohol"></td>
+          <td class="non_alcohol">Ни капли</td>
         </tr>
         <tr>
           <td>25.07.2019</td>
@@ -91,15 +95,15 @@
         </tr>
         <tr>
           <td>23.07.2019</td>
-          <td class="non_alcohol"></td>
+          <td class="non_alcohol">Ни капли</td>
         </tr>
         <tr>
           <td>22.07.2019</td>
-          <td class="non_alcohol"></td>
+          <td class="non_alcohol">Ни капли</td>
         </tr>
         <tr>
           <td>21.07.2019</td>
-          <td class="non_alcohol"></td>
+          <td class="non_alcohol">Ни капли</td>
         </tr>
         <tr>
           <td>20.07.2019</td>
@@ -107,7 +111,7 @@
         </tr>
         <tr>
           <td>19.07.2019</td>
-          <td class="non_alcohol"></td>
+          <td class="non_alcohol">Ни капли</td>
         </tr>
         <tr>
           <td>18.07.2019</td>

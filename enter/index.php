@@ -21,7 +21,7 @@
           <li><a href="https://krifoxoro.ru/scripts">Scripts</a></li>
           <li><a href="https://krifoxoro.ru/experements">experements</a></li>
           <li><a href="https://krifoxoro.ru/grid">grid</a></li>
-          <!-- <li><a href="https://krifoxoro.ru/enter">Войти</a></li> -->
+          <!-- <li><a href="https://krifoxoro.ru/enter">Акк</a></li> -->
         </ul>
       </nav>
     </header>
@@ -66,7 +66,7 @@
         if (empty($_SESSION['login']) or empty($_SESSION['id']))
         {
         // Если пусты, то мы не выводим ссылку
-        echo "ты вошёл на сайт как смертный<br><a href='#'>Эта ссылка  доступна только зарегистрированным пользователям</a>";
+        echo "ты вошёл(ла) на сайт как смертный<br><a href='#'>Эта ссылка  доступна только зарегистрированным пользователям</a>";
         }
         else
         {

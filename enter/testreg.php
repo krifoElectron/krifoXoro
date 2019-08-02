@@ -46,7 +46,8 @@ if (empty($login) or empty($password)) //если пользователь не 
     $_SESSION['id']=$myrow['id'];//эти данные очень часто используются, вот их и будет "носить с собой" вошедший пользователь
     $_SESSION['isStuff'] = $myrow['isStuff'];
     $_SESSION['isSuperStuff'] = $myrow['isSuperStuff'];
-    echo "ты успешно залогинился(ась)! <a href='https://krifoxoro.ru/enter'>Второстепенная страница</a>";
+    // echo "ты успешно залогинился(ась)! <a href='https://krifoxoro.ru/enter'>Второстепенная страница</a>";
+    include('./alcolendar/templates/krifo2.php');
     }
  else {
     //если пароли не сошлись
