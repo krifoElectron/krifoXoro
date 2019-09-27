@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.krifoxoro\.ru$ [NC]
-RewriteRule ^(.*)$ http://krifoxoro.ru/$1 [R=301,L]
-</IfModule>
