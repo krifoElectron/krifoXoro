@@ -1,5 +1,4 @@
 print('asdf')
 print('asdf')
 print('asdf')
-
-print('lololo')
+print('asdf')
